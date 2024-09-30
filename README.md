@@ -1,4 +1,4 @@
-### Planeación de Aplicación PWA
+## Planeación de Aplicación PWA
 
 #### I. METODOLOGÍA
 
