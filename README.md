@@ -29,7 +29,8 @@ Crear una rama: Cada nueva funcionalidad se desarrolla en una rama aparte con gi
 Realizar cambios y commit: Los cambios se guardan y documentan en Git con git commit -m "Descripción del cambio", creando puntos de control clave.
 Pull request (PR): Las PR son revisadas antes de integrar los cambios a las ramas principales, asegurando la calidad del código.
 Merge: Las ramas se fusionan en develop o main tras las revisiones, siguiendo las mejores prácticas de desarrollo.
-IV. FLUJO DE DESPLIEGUE
+
+#### IV. FLUJO DE DESPLIEGUE
 
 Selección de Estrategia de Despliegue: Canary Deployment
 Para una PWA, el Canary Deployment es una estrategia clave. Permite implementar nuevas funcionalidades y mejoras a un subconjunto de usuarios antes de un despliegue completo, lo que ayuda a detectar problemas de rendimiento y estabilidad en producción sin afectar a todos los usuarios.
