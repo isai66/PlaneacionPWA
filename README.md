@@ -1,6 +1,6 @@
-##Planeación del proceso de desarrollo de software para PWA
+## Planeación del proceso de desarrollo de software para PWA
 
-####I. METODOLOGÍA
+#### I. METODOLOGÍA
 
 **Metodología XP (Extreme Programming):**
 La Programación Extrema (XP) es una metodología ágil que se enfoca en la simplicidad y la velocidad con ciclos de desarrollo cortos. Esto es particularmente útil en el desarrollo de aplicaciones PWA, donde los cambios rápidos en las necesidades de los usuarios y el soporte multiplataforma requieren flexibilidad y adaptabilidad. Los principios fundamentales de XP incluyen:
@@ -12,7 +12,7 @@ Ritmo de Entrega: La entrega frecuente y el desarrollo incremental son claves pa
 Gestión de Riesgos: XP gestiona los riesgos con la planificación incremental, lo que permite detectar problemas a tiempo y corregirlos antes de afectar al usuario final.
 Satisfacción del Cliente y Crecimiento Profesional: La combinación de la satisfacción continua del cliente y el enfoque en la mejora profesional del equipo crea un entorno de desarrollo eficiente y motivado.
 
-####II. ESQUEMA DE VERSIONAMIENTO
+#### II. ESQUEMA DE VERSIONAMIENTO
 
 Selección de Estrategia de Versionamiento (GitFlow):
 Para el desarrollo de una PWA, GitFlow permite manejar versiones de producción estables mientras se desarrollan nuevas funcionalidades de forma ordenada. Esto asegura que las actualizaciones y correcciones de la PWA se gestionen eficientemente.
@@ -22,7 +22,7 @@ Release branches: Creadas cuando se termina el desarrollo de una versión que se
 Hotfix branches: Utilizadas para corregir problemas urgentes en producción, lo que garantiza una rápida respuesta ante fallos críticos.
 Integración continua (CI): Compatible con GitFlow, se asegura de que las pruebas y despliegues de nuevas versiones de la PWA sean rápidas y sin errores, manteniendo la estabilidad en producción.
 
-####III. FLUJO DE HERRAMIENTA DE CONTROL DE VERSIONES Y FLUJO DE TRABAJO
+#### III. FLUJO DE HERRAMIENTA DE CONTROL DE VERSIONES Y FLUJO DE TRABAJO
 
 Clonar el repositorio: Se realiza con el comando git clone, permitiendo a los desarrolladores trabajar localmente en la PWA.
 Crear una rama: Cada nueva funcionalidad se desarrolla en una rama aparte con git checkout -b nombre-rama, facilitando un flujo de trabajo estructurado.
